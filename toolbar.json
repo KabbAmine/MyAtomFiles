@@ -1,0 +1,81 @@
+[
+    {
+        "type": "button",
+        "icon": "arrow-right",
+        "callback": "toolbar:toggle",
+        "tooltip": "Toggle toolbar",
+        "iconset": ""
+    },
+    {
+        "type": "spacer"
+    },
+    {
+        "type": "button",
+        "icon": "qr-scanner",
+        "callback": "minimap:toggle",
+        "tooltip": "Toggle mini-map",
+        "iconset": "ion"
+    },
+    {
+        "type": "button",
+        "icon": "file-directory",
+        "callback": "tree-view:toggle",
+        "tooltip": "Toggle tree view",
+        "iconset": ""
+    },
+    {
+        "type": "button",
+        "icon": "terminal",
+        "callback": "atom-terminal:open",
+        "tooltip": "Open terminal here",
+        "iconset": ""
+    },
+    {
+        "type": "button",
+        "icon": "code",
+        "callback": "symbols-tree-view:toggle",
+        "tooltip": "Toggle symbols tree view",
+        "iconset": ""
+    },
+    {
+        "type": "spacer"
+    },
+    {
+        "type": "button",
+        "icon": "git-branch",
+        "callback": "git-log:show",
+        "tooltip": "Show Git log",
+        "iconset": ""
+    },
+    {
+        "type": "button",
+        "icon": "globe",
+        "callback": "web-browser:toggle",
+        "tooltip": "Show web browser plugin",
+        "iconset": ""
+    },
+    {
+        "type": "button",
+        "icon": "markdown",
+        "callback": "markdown-preview:toggle",
+        "tooltip": "Show web browser plugin",
+        "iconset": ""
+    },
+    {
+        "type": "spacer"
+    },
+    {
+        "type": "button",
+        "icon": "sync",
+        "callback": "window:reload",
+        "tooltip": "Reload Atom",
+        "iconset": ""
+    },
+    {
+        "type": "button",
+        "icon": "settings",
+        "callback": "settings-view:open",
+        "tooltip": "Open/Show settings",
+        "iconset": ""
+    }
+]

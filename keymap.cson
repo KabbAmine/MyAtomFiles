@@ -1,0 +1,92 @@
+# Your keymap
+#
+# Atom keymaps work similarly to stylesheets. Just as stylesheets use selectors
+# to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# 'atom-text-editor''key': value
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about keymaps in these guides:
+# * https://atom.io/docs/latest/customizing-atom#customizing-key-bindings
+# * https://atom.io/docs/latest/advanced/keymaps
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it here:
+# https://github.com/bevry/cson#what-is-cson
+
+# #########
+# General
+# #########
+
+# Buffer finder     => Ctrl-space
+'.platform-linux':
+  'ctrl-b': 'unset!'
+  'ctrl-space': 'fuzzy-finder:toggle-buffer-finder'
+
+# Move line(s)          => Alt-up/down
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-up': 'unset!'
+  'alt-up': 'editor:move-line-up'
+  'ctrl-down': 'unset!'
+  'alt-down': 'editor:move-line-down'
+
+# !!! Toggle Treeview
+'body':
+  'ctrl-,': 'unset!'
+'.platform-win32, .platform-linux':
+  'ctrl-,': 'tree-view:toggle'
+
+# !!! New file
+'.platform-linux':
+  'ctrl-t': 'unset!'
+'body':
+  'ctrl-n': 'unset!'
+  'ctrl-t': 'application:new-file'
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-n': 'find-and-replace:select-next'
+
+# #########
+# Plugins
+# #########
+
+# Color picker
+#       => Ctrl-Shift-C
+'atom-text-editor:not([mini])':
+  'ctrl-shift-C': 'unset!'
+'.platform-win32 atom-workspace, .platform-linux atom-workspace':
+  'ctrl-alt-c': 'unset!'
+  'ctrl-shift-C': 'color-picker:open'
+
+# Git plus
+#       menu    => Ctrl-Shift-G
+'.platform-win32, .platform-linux':
+  'ctrl-shift-G': 'unset!'
+'.platform-win32, .platform-linux':
+  'ctrl-shift-H': 'unset!'
+  'ctrl-shift-G': 'git-plus:menu'
+
+# Multi-cursor
+#       => Ctrl-Shift-up/down
+'atom-workspace':
+  'ctrl-shift-up': 'multi-cursor:expandUp'
+  'ctrl-shift-down': 'multi-cursor:expandDown'
+
+# Advanced new file
+#     => Ctrl-Shift-N
+'.platform-win32 atom-workspace, .platform-linux atom-workspace':
+  'ctrl-shift-N': 'advanced-new-file:toggle'
+
+# Vim-mode
+# Disable some keys
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  'ctrl-f': 'unset!'

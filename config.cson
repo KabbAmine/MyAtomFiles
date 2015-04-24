@@ -1,0 +1,109 @@
+"*":
+  core:
+    ignoredNames: [
+      ".sass-cache"
+      ".git"
+    ]
+    disabledPackages: [
+      "metrics"
+      "autosave"
+      "archive-view"
+      "autocomplete"
+      "welcome"
+      "autocomplete-plus-async"
+      "autoclose-html"
+      "themed-settings"
+    ]
+    themes: [
+      "one-dark-ui"
+      "outlander-syntax"
+    ]
+    autoHideMenuBar: true
+  metrics: false
+  "exception-reporting":
+    userId: "29ef498c-bdbd-641e-7645-0f0ffea9613b"
+  welcome:
+    showOnStartup: false
+  editor:
+    lineHeight: 1.5
+    showIndentGuide: true
+    tabLength: 4
+    useShadowDOM: true
+    invisibles: {}
+    fontFamily: "Droid Sans Mono"
+  minimap:
+    scrollAnimation: true
+    autoToggle: false
+  "fancy-new-file":
+    showFilesInAutoComplete: true
+    suggestCurrentFilePath: true
+  "vim-mode":
+    useSmartcaseForSearch: true
+    useClipboardAsDefaultRegister: true
+  linter:
+    lintOnEditorFocus: false
+    showErrorInline: true
+    statusBar: "Show error if the cursor is in range"
+    lintOnChange: false
+    clearOnChange: true
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
+  "autocomplete-plus":
+    includeCompletionsFromAllBuffers: true
+    strictMatching: true
+    minimumWordLength: 2
+  "file-icons":
+    forceShow: true
+  "tree-view": {}
+  "autocomplete-plus-async":
+    includeCompletionsFromAllBuffers: true
+  "atom-color-highlight":
+    excludedGrammars: [
+      "html"
+      "php"
+    ]
+  "atom-beautify":
+    _analyticsUserId: "e2ba73d4-bc0b-4a90-88f9-864566df13aa"
+    html_indent_inner_html: true
+    html_indent_size: 2
+    html_brace_style: "expand"
+  jumpy: {}
+  "web-browser":
+    useRightPane: true
+  "linter-scss-lint":
+    scssLintExecutablePath: "/usr/local/bin/scss-lint"
+  "linter-tidy":
+    tidyExecutablePath: "/usr/local/bin/tidy5"
+  "git-log": {}
+  tabs: {}
+  "spell-check": {}
+  "markdown-preview": {}
+  "fuzzy-finder": {}
+  docblockr:
+    auto_add_method_tag: true
+  "linter-jshint": {}
+  "less-than-slash": {}
+  emmet: {}
+  "keyboard-localization":
+    useKeyboardLayout: "fr_FR"
+  "vim-surround": {}
+  toolbar:
+    position: "Right"
+  "flex-toolbar": {}
+  "git-plus": {}
+  "linter-jsonlint": {}
+".css.scss.source":
+  editor:
+    tabLength: 2
+".basic.html.text":
+  editor:
+    tabLength: 2
+".coffee.source":
+  editor:
+    tabLength: 2
+".python.source":
+  editor:
+    tabLength: 2
+".sass.source":
+  editor:
+    tabLength: 2
