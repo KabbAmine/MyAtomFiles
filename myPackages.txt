@@ -1,11 +1,10 @@
-# Généré le vendredi 24 avril 2015, 16:35:01 (UTC+0300)
+# Généré le dimanche 26 avril 2015, 00:00:01 (UTC+0300)
 
 advanced-new-file
 atom-beautify
 atom-color-highlight
 atom-jade
 atom-terminal
-atom-zeal
 autocomplete-css
 autocomplete-emojis
 autocomplete-html
@@ -16,6 +15,7 @@ base16-spacegray-syntax
 broadcast-color-scheme
 brogrammer2-ui
 color-picker
+colorful-json
 cut-line
 docblockr
 duplicate-line-or-selection
