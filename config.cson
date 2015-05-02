@@ -90,18 +90,19 @@
   "flex-toolbar": {}
   "git-plus": {}
   "linter-jsonlint": {}
-".css.scss.source":
-  editor:
-    tabLength: 2
+  "linter-csslint": {}
 ".basic.html.text":
   editor:
     tabLength: 2
-".coffee.source":
+".css.scss.source":
+  editor:
+    tabLength: 2
+".sass.source":
   editor:
     tabLength: 2
 ".python.source":
   editor:
     tabLength: 2
-".sass.source":
+".coffee.source":
   editor:
     tabLength: 2
