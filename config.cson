@@ -91,6 +91,9 @@
   "git-plus": {}
   "linter-jsonlint": {}
   "linter-csslint": {}
+  "tool-bar":
+    position: "Right"
+  "flex-tool-bar": {}
 ".basic.html.text":
   editor:
     tabLength: 2

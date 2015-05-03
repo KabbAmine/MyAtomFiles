@@ -1,4 +1,4 @@
-# Généré le samedi 2 mai 2015, 10:00:01 (UTC+0300)
+# Généré le lundi 4 mai 2015, 00:00:02 (UTC+0300)
 
 advanced-new-file
 atom-beautify
@@ -21,7 +21,7 @@ docblockr
 duplicate-line-or-selection
 ex-mode
 file-icons
-flex-toolbar
+flex-tool-bar
 git-history
 git-log
 git-plus
@@ -54,7 +54,7 @@ space-tab
 spacegray-eighties-ui
 symbols-tree-view
 tabularize
-toolbar
+tool-bar
 vim-mode
 vim-surround
 web-browser
