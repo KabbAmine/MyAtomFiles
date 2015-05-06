@@ -94,18 +94,18 @@
   "tool-bar":
     position: "Right"
   "flex-tool-bar": {}
-".basic.html.text":
-  editor:
-    tabLength: 2
 ".css.scss.source":
   editor:
     tabLength: 2
-".sass.source":
+".basic.html.text":
+  editor:
+    tabLength: 2
+".coffee.source":
   editor:
     tabLength: 2
 ".python.source":
   editor:
     tabLength: 2
-".coffee.source":
+".sass.source":
   editor:
     tabLength: 2
