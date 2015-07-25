@@ -1,8 +1,8 @@
 [
     {
         "type": "button",
-        "icon": "arrow-right",
-        "callback": "toolbar:toggle",
+        "icon": "arrow-left",
+        "callback": "tool-bar:toggle",
         "tooltip": "Toggle toolbar",
         "iconset": ""
     },
@@ -18,23 +18,23 @@
     },
     {
         "type": "button",
-        "icon": "file-directory",
+        "icon": "tree",
         "callback": "tree-view:toggle",
         "tooltip": "Toggle tree view",
-        "iconset": ""
-    },
-    {
-        "type": "button",
-        "icon": "terminal",
-        "callback": "atom-terminal:open",
-        "tooltip": "Open terminal here",
-        "iconset": ""
+        "iconset": "fa"
     },
     {
         "type": "button",
         "icon": "code",
         "callback": "symbols-tree-view:toggle",
         "tooltip": "Toggle symbols tree view",
+        "iconset": ""
+    },
+    {
+        "type": "button",
+        "icon": "terminal",
+        "callback": "terminal-panel:toggle",
+        "tooltip": "Open terminal here",
         "iconset": ""
     },
     {
@@ -45,21 +45,38 @@
         "icon": "git-branch",
         "callback": "git-log:show",
         "tooltip": "Show Git log",
-        "iconset": ""
+        "iconset": "",
+        "style": {
+            "color": "#2ECC71"
+        }
     },
     {
         "type": "button",
         "icon": "globe",
-        "callback": "web-browser:toggle",
+        "callback": "browser-plus:open",
         "tooltip": "Show web browser plugin",
-        "iconset": ""
+        "iconset": "",
+        "style": {
+            "color": "#3498DB"
+        }
+    },
+    {
+        "type": "button",
+        "icon": "check-circle",
+        "callback": "linter:togglePanel",
+        "tooltip": "Toggle linter panel",
+        "iconset": "fa",
+        "style": {
+            "color": "#E74C3C"
+        }
     },
     {
         "type": "button",
         "icon": "markdown",
         "callback": "markdown-preview:toggle",
         "tooltip": "Show web browser plugin",
-        "iconset": ""
+        "iconset": "",
+        "hide": "!markdown"
     },
     {
         "type": "spacer"
@@ -70,6 +87,20 @@
         "callback": "window:reload",
         "tooltip": "Reload Atom",
         "iconset": ""
+    },
+    {
+        "type": "button",
+        "icon": "keyboard-o",
+        "callback": "key-binding-resolver:toggle",
+        "tooltip": "Open key binding resolver",
+        "iconset": "fa"
+    },
+    {
+        "type": "button",
+        "icon": "settings",
+        "callback": "window:toggle-dev-tools",
+        "tooltip": "Toggle dev tools",
+        "iconset": "ion"
     },
     {
         "type": "button",

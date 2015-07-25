@@ -5,17 +5,20 @@
       ".git"
     ]
     disabledPackages: [
-      "metrics"
       "autosave"
       "archive-view"
-      "autocomplete"
       "welcome"
-      "cut-line"
+      "vim-mode"
+      "move-status-items"
+      "tabularize"
+      "disable-keybindings"
     ]
     themes: [
       "one-dark-ui"
       "outlander-syntax"
     ]
+    followSymlinks: false
+    projectHome: "/home/k-bag/Projects/pluginsAtom/"
     autoHideMenuBar: true
   metrics: false
   "exception-reporting":
@@ -23,89 +26,141 @@
   welcome:
     showOnStartup: false
   editor:
-    lineHeight: 1.5
     showIndentGuide: true
     tabLength: 4
     useShadowDOM: true
     invisibles: {}
     fontFamily: "Droid Sans Mono"
+    fontSize: 16
   minimap:
     scrollAnimation: true
     autoToggle: false
   "fancy-new-file":
     showFilesInAutoComplete: true
     suggestCurrentFilePath: true
-  "vim-mode":
-    useSmartcaseForSearch: true
-    useClipboardAsDefaultRegister: true
   linter:
     lintOnEditorFocus: false
-    showErrorInline: true
     statusBar: "Show error if the cursor is in range"
     lintOnChange: false
     clearOnChange: true
-  autocomplete:
-    includeCompletionsFromAllBuffers: true
+    showInfoMessages: true
+    showErrorPanel: false
+    showErrorTabFile: false
+    showErrorTabProject: false
   "autocomplete-plus":
     includeCompletionsFromAllBuffers: true
     strictMatching: true
     minimumWordLength: 2
+    confirmCompletion: "tab"
   "file-icons":
     forceShow: true
+    onChanges: true
   "tree-view": {}
-  "autocomplete-plus-async":
-    includeCompletionsFromAllBuffers: true
-  "atom-color-highlight":
-    excludedGrammars: [
-      "html"
-      "php"
-    ]
   "atom-beautify":
     _analyticsUserId: "e2ba73d4-bc0b-4a90-88f9-864566df13aa"
     html_indent_inner_html: true
     html_indent_size: 2
     html_brace_style: "expand"
+    beautifyEntireFileOnSave: false
+    analytics: false
+    css_align_assignments: true
   jumpy: {}
-  "web-browser":
-    useRightPane: true
   "linter-scss-lint":
     scssLintExecutablePath: "/usr/local/bin/scss-lint"
+    executablePath: "/usr/local/bin/scss-lint"
   "linter-tidy":
     tidyExecutablePath: "/usr/local/bin/tidy5"
   "git-log": {}
-  tabs: {}
+  tabs:
+    usePreviewTabs: true
+    enableVcsColoring: true
   "spell-check": {}
-  "markdown-preview": {}
-  "fuzzy-finder": {}
+  "markdown-preview":
+    useGitHubStyle: true
+  "fuzzy-finder":
+    preserveLastSearch: true
   docblockr:
     auto_add_method_tag: true
-  "linter-jshint": {}
+    align_tags: "no"
+  "linter-jshint":
+    lintInlineJavaScript: true
   "less-than-slash": {}
-  emmet: {}
+  emmet:
+    useEmmetComments: false
   "keyboard-localization":
     useKeyboardLayout: "fr_FR"
   "vim-surround": {}
-  toolbar:
-    position: "Right"
-  "flex-toolbar": {}
   "git-plus": {}
   "linter-jsonlint": {}
   "linter-csslint": {}
   "tool-bar":
-    position: "Right"
-  "flex-tool-bar": {}
-".css.scss.source":
-  editor:
-    tabLength: 2
+    position: "Left"
+  "flex-tool-bar":
+    toolBarConfigurationFilePath: "/home/k-bag/.atom/toolbar.json"
+  pigments:
+    markerType: "square-dot"
+    sortPaletteColors: "by color"
+    groupPaletteColors: "by file"
+  "one-dark-ui":
+    fontSize: 11
+  "browser-plus":
+    homepage: "http://local.dev"
+  "color-picker":
+    abbreviateValues: true
+    preferredFormat: "HEX"
+    automaticReplace: true
+    randomColor: false
+  "disable-keybindings":
+    prefixKeys: [
+      "ctrl-k"
+    ]
+  "new-tab":
+    position: "Center"
+  "indentation-indicator":
+    indicatorPosition: "right"
+    spaceAfterColon: true
+  "linter-php":
+    phpExecutablePath: "/usr/bin/php"
+  "linter-shellcheck":
+    shellcheckExecutablePath: "/usr/bin/shellcheck"
+  navigate:
+    dblclk: true
+  "symbols-tree-view": {}
+  "terminal-panel":
+    logConsole: true
+  notifications:
+    showErrorsInDevMode: true
+  "status-bar": {}
+  "move-status-items":
+    useSmartcaseForSearch: true
+    useClipboardAsDefaultRegister: true
+  "cursor-history":
+    excludeClosedBuffer: true
+    flashOnLand: true
+    flashColor: "success"
+  "clipboard-plus": {}
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  "vim-mode-next":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  "git-diff":
+    showIconsInEditorGutter: true
+  "atom-alignment":
+    addSpacePostfix: true
 ".basic.html.text":
   editor:
     tabLength: 2
-".coffee.source":
+".css.scss.source":
+  editor:
+    tabLength: 2
+".sass.source":
   editor:
     tabLength: 2
 ".python.source":
   editor:
     tabLength: 2
-".sass.source":
+".coffee.source":
   editor:
     tabLength: 2
