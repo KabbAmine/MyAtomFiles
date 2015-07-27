@@ -8,7 +8,6 @@
       "autosave"
       "archive-view"
       "welcome"
-      "vim-mode"
       "move-status-items"
       "tabularize"
     ]
@@ -34,6 +33,8 @@
   minimap:
     scrollAnimation: true
     autoToggle: false
+    plugins:
+      linter: true
   "fancy-new-file":
     showFilesInAutoComplete: true
     suggestCurrentFilePath: true
@@ -88,15 +89,6 @@
     useEmmetComments: false
   "keyboard-localization":
     useKeyboardLayout: "fr_FR"
-  "vim-surround":
-    pairs: [
-      "``"
-      "''"
-      "\"\""
-      "()"
-      "[]"
-      "{}"
-    ]
   "git-plus": {}
   "linter-jsonlint": {}
   "linter-csslint": {}
@@ -120,13 +112,13 @@
   "disable-keybindings":
     prefixKeys: [
       "ctrl-k"
+      "ctrl-w"
     ]
     exceptCommunityPackages: [
-      "vim-mode"
       "docblockr"
-      "vim-surround"
-      "vim-mode-next"
       "ex-mode"
+      "vim-mode-next"
+      "vim-surround"
     ]
     allCommunityPackages: true
     exceptBundledPackages: [
@@ -164,28 +156,55 @@
     flashOnLand: true
     flashColor: "success"
   "clipboard-plus": {}
-  "vim-mode":
-    useClipboardAsDefaultRegister: true
-    useSmartcaseForSearch: true
-  "vim-mode-next":
-    useClipboardAsDefaultRegister: true
-    useSmartcaseForSearch: true
   "git-diff":
     showIconsInEditorGutter: true
   "atom-alignment":
     addSpacePostfix: true
-".basic.html.text":
-  editor:
-    tabLength: 2
+  "atom-material-ui":
+    compactTreeView: true
+    depth: true
+    disableAnimations: true
+    panelContrast: true
+    rippleAccentColor: true
+    showTabIcons: true
+    tabSize: "Small"
+    useRoboto: true
+    themeSyle: "Darker"
+  "vim-mode-next":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  "vim-surround":
+    pairs: [
+      "``"
+      "\"\""
+      "''"
+      "()"
+      "[]"
+      "{}"
+    ]
+  "atom-ternjs": {}
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  "autocomplete-python":
+    outputProviderErrors: true
+    useSnippets: "required"
+  "minimap-linter": {}
+  "advanced-open-file":
+    caseSensitiveAutoCompletion: true
+    createFileInstantly: true
 ".css.scss.source":
   editor:
     tabLength: 2
-".sass.source":
+".basic.html.text":
+  editor:
+    tabLength: 2
+".coffee.source":
   editor:
     tabLength: 2
 ".python.source":
   editor:
     tabLength: 2
-".coffee.source":
+".sass.source":
   editor:
     tabLength: 2

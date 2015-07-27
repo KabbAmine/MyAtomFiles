@@ -1,52 +1,11 @@
 #################################
 # Creation         : 07-18-15
-# Last modification: 25-07-15
+# Last modification: 28-07-15
 # ###############################
 
 # ################
 # General
 # ################
-
-# Unset all ******* ctrl-k keybindings
-# 'body':
-#   'ctrl-k ctrl-alt-w': 'unset!'
-#   'ctrl-k ctrl-down': 'unset!'
-#   'ctrl-k ctrl-left': 'unset!'
-#   'ctrl-k ctrl-right': 'unset!'
-#   'ctrl-k ctrl-n': 'unset!'
-#   'ctrl-k ctrl-p': 'unset!'
-#   'ctrl-k ctrl-w': 'unset!'
-#   'ctrl-k down': 'unset!'
-#   'ctrl-k left': 'unset!'
-#   'ctrl-k right': 'unset!'
-#   'ctrl-k up': 'unset!'
-# 'atom-workspace atom-text-editor:not([mini])':
-#   'ctrl-k ctrl-0': 'unset!'
-#   'ctrl-k ctrl-1': 'unset!'
-#   'ctrl-k ctrl-2': 'unset!'
-#   'ctrl-k ctrl-3': 'unset!'
-#   'ctrl-k ctrl-4': 'unset!'
-#   'ctrl-k ctrl-5': 'unset!'
-#   'ctrl-k ctrl-6': 'unset!'
-#   'ctrl-k ctrl-7': 'unset!'
-#   'ctrl-k ctrl-8': 'unset!'
-#   'ctrl-k ctrl-9': 'unset!'
-# 'atom-workspace atom-text-editor':
-#   'ctrl-k ctrl-l': 'unset!'
-#   'ctrl-k ctrl-u': 'unset!'
-# '.platform-win32, .platform-linux':
-#   'ctrl-k ctrl-b': 'unset!'
-# '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
-#   'ctrl-k ctrl-d': 'unset!'
-# '.platform-win32 .tree-view, .platform-linux .tree-view':
-#   'ctrl-k down': 'unset!'
-#   'ctrl-k up': 'unset!'
-#   'ctrl-k right': 'unset!'
-#   'ctrl-k left': 'unset!'
-#   'ctrl-k h': 'unset!'
-#   'ctrl-k j': 'unset!'
-#   'ctrl-k k': 'unset!'
-#   'ctrl-k l': 'unset!'
 
 # General keybindings
 'atom-workspace':
@@ -81,6 +40,7 @@
 # Tree view
 '.tree-view':
   'd d': 'tree-view:remove'
+  'd d': 'permanent-delete:delete'
   'y': 'tree-view:copy'
   'p': 'tree-view:paste'
   'x': 'tree-view:cut'
@@ -88,7 +48,6 @@
   'a d': 'tree-view:add-folder'
   's': 'tree-view:open-selected-entry-down'
   'v': 'tree-view:open-selected-entry-right'
-
 
 # ###############################
 # Vim-mode & plugins in vim-mode
@@ -172,3 +131,13 @@
   ',': 'native!'
   '!': 'native!'
   'space': 'native!'
+
+# Normal mode
+# ##############
+
+'atom-text-editor.vim-mode.normal-mode':
+  'g f f': 'open-this:here'
+  'g f s': 'open-this:split-down'
+  'g f v': 'open-this:split-right'
+  '/': 'isearch:search-forward'
+  '?': 'isearch:search-backward'

@@ -1,10 +1,14 @@
-# Généré le samedi 25 juillet 2015, 15:00:01 (UTC+0300)
+# Généré le mardi 28 juillet 2015, 00:00:02 (UTC+0300)
 
 advanced-open-file
 atom-alignment
 atom-beautify
+atom-material-syntax
+atom-material-ui
+atom-ternjs
 autocomplete-emojis
 autocomplete-paths
+autocomplete-python
 browser-plus
 clipboard-plus
 color-picker
@@ -21,6 +25,7 @@ git-log
 git-plus
 git-tab-status
 indentation-indicator
+isearch
 keyboard-localization
 language-htaccess
 language-jade
@@ -39,11 +44,14 @@ linter-shellcheck
 linter-tidy
 merge-conflicts
 minimap
+minimap-linter
 modular-snippets
 move-status-items
 multi-cursor
 navigate
 new-tab
+nucleus-dark-ui
+open-this
 outlander-syntax
 outlander-ui
 pigments
@@ -57,7 +65,6 @@ tabs-to-spaces
 tabularize
 terminal-panel
 tool-bar
-vim-mode
 vim-mode-clipboard-plus
 vim-mode-next
 vim-surround
