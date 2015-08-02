@@ -1,4 +1,4 @@
-# Généré le mardi 28 juillet 2015, 00:00:02 (UTC+0300)
+# Généré le dimanche 2 août 2015, 15:00:02 (UTC+0300)
 
 advanced-open-file
 atom-alignment
@@ -6,9 +6,12 @@ atom-beautify
 atom-material-syntax
 atom-material-ui
 atom-ternjs
+atom-zeal
 autocomplete-emojis
+autocomplete-html-entities
 autocomplete-paths
 autocomplete-python
+bottom-dock
 browser-plus
 clipboard-plus
 color-picker
@@ -24,6 +27,7 @@ git-history
 git-log
 git-plus
 git-tab-status
+gulp-manager
 indentation-indicator
 isearch
 keyboard-localization
@@ -54,6 +58,7 @@ nucleus-dark-ui
 open-this
 outlander-syntax
 outlander-ui
+permanent-delete
 pigments
 quantum-ui
 revert-buffer

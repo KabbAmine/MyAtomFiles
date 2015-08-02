@@ -1,6 +1,6 @@
 #################################
 # Creation         : 07-18-15
-# Last modification: 28-07-15
+# Last modification: 02-08-15
 # ###############################
 
 # ################
@@ -14,8 +14,8 @@
   'ctrl-n': 'core:move-down'
   'ctrl-p': 'core:move-up'
 
-  # The following keybindings are remaped to 'native' in ex & vim insert mode
-  # (1)
+  # Various
+  'ctrl-shift-n': 'application:new-file'
   ', ,': 'command-palette:toggle'
   ', f': 'fuzzy-finder:toggle-file-finder'
   ', b': 'fuzzy-finder:toggle-buffer-finder'
@@ -24,14 +24,22 @@
   ', N': 'tree-view:toggle'
   ', n': 'tree-view:toggle-focus'
 
-  # Plugins
+  # Color picker
   'alt-c': 'color-picker:open'
+
+  # Clipboard-plus
   'alt-p': 'clipboard-plus:toggle'
-  'ctrl-shift-n': 'application:new-file'
+
+  # Source preview
   'f8': 'source-preview:toggle'
+
+  # Script
   'f9': 'script:run'
   'ctrl-f9': 'script:close-view'
+
+  # Linter
   ', e': 'linter:togglePanel'
+
 
 # #################
 # Plugins
@@ -39,13 +47,14 @@
 
 # Tree view
 '.tree-view':
-  'd d': 'tree-view:remove'
-  'd d': 'permanent-delete:delete'
-  'y': 'tree-view:copy'
-  'p': 'tree-view:paste'
-  'x': 'tree-view:cut'
-  'a f': 'tree-view:add-file'
-  'a d': 'tree-view:add-folder'
+  'm d d': 'permanent-delete:delete'
+  'm y': 'tree-view:copy'
+  'm p': 'tree-view:paste'
+  'm x': 'tree-view:cut'
+  'm a f': 'tree-view:add-file'
+  'm a d': 'tree-view:add-folder'
+  'X': 'tree-view:recursive-collapse-directory'
+  'O': 'tree-view:recursive-expand-directory'
   's': 'tree-view:open-selected-entry-down'
   'v': 'tree-view:open-selected-entry-right'
 
@@ -112,32 +121,41 @@
   'ctrl-f': 'find-and-replace:show'
   'ctrl-shift-f': 'project-find:show'
   'ctrl-d': 'find-and-replace:select-next'
+  'ctrl-space': 'unset'
 
 # Visual-mode
 # ################
 
 'atom-text-editor.vim-mode.visual-mode':
+
+  # Atom alignement
   'enter': 'atom-alignment:alignMultiple'
 
 # Insert-mode
 # ################
+
 'atom-text-editor.vim-mode.insert-mode':
-  'k': 'exit-ins-mode-if-proceded-by-j'
+  'j k': 'vim-mode:reset-normal-mode'
   'alt-d': 'editor:duplicate-lines'
   'ctrl-tab': 'snippets:available'
-  'j': 'expand-emmet-if-proceded-by-h'
+  'ctrl-shift-p': 'command-palette:toggle'
 
-  # Normal behavior for some mapped keybindings (1)
-  ',': 'native!'
-  '!': 'native!'
-  'space': 'native!'
+  # Emmet
+  'j h': 'emmet:expand-abbreviation'
+
+  # Bracket close jump
+  'shift-space': 'bracket-close-jump:trigger'
 
 # Normal mode
 # ##############
 
 'atom-text-editor.vim-mode.normal-mode':
+
+  # Open this
   'g f f': 'open-this:here'
   'g f s': 'open-this:split-down'
   'g f v': 'open-this:split-right'
+
+  # Isearch
   '/': 'isearch:search-forward'
   '?': 'isearch:search-backward'

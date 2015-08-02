@@ -10,6 +10,7 @@
       "welcome"
       "move-status-items"
       "tabularize"
+      "autocomplete-html-entities"
     ]
     themes: [
       "one-dark-ui"

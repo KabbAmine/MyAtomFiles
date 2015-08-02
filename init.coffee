@@ -1,6 +1,6 @@
 # ###############################
 # Creation         : 07-19-15
-# Last modification: 23-07-15
+# Last modification: 02-08-15
 # ###############################
 
 
@@ -26,39 +26,19 @@ atom.commands.add 'atom-text-editor', 'custom:close-other-panes': () ->
 
 atom.packages.onDidActivatePackage (pack) ->
 
-  # vim-mode
-  # #################
-
-  if pack.name == 'vim-mode' || pack.name == 'vim-mode-next'
-
-    # No more latency for jk in insert-mode
-    atom.commands.add 'atom-text-editor', 'exit-ins-mode-if-proceded-by-j': (e) ->
-      editor = @getModel()
-      pos = editor.getCursorBufferPosition()
-      range = [pos.traverse([0,-1]), pos]
-      lastChar = editor.getTextInBufferRange(range)
-      if lastChar != "j"
-        e.abortKeyBinding()
-      else
-        editor.backspace()
-        atom.commands.dispatch(e.currentTarget, 'vim-mode:activate-normal-mode')
-
-  # emmet
-  # #################
-
-  if pack.name == 'emmet'
-
-    # No more latency for hj for emmet
-    atom.commands.add 'atom-text-editor', 'expand-emmet-if-proceded-by-h': (e) ->
-      editor = @getModel()
-      pos = editor.getCursorBufferPosition()
-      range = [pos.traverse([0,-1]), pos]
-      lastChar = editor.getTextInBufferRange(range)
-      if lastChar != "h"
-        e.abortKeyBinding()
-      else
-        editor.backspace()
-        atom.commands.dispatch(e.currentTarget, 'emmet:expand-abbreviation')
+  # # vim-mode
+  # # #################
+  #
+  # if pack.name == 'vim-mode' || pack.name == 'vim-mode-next'
+  #
+  #   # No more latency for jk in insert-mode
+  #   atom.commands.add 'atom-text-editor', 'insert-comma-in-insert-mode': (e) ->
+  #     editor = @getModel()
+  #     pos = editor.getCursorBufferPosition()
+  #     range = [pos.traverse([0,-1]), pos]
+  #     lastChar = editor.getTextInBufferRange(range)
+  #     if lastChar != ","
+  #       e.abortKeyBinding()
 
   # Ex-mode commands
   # #################
