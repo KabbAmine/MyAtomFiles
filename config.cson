@@ -10,7 +10,6 @@
       "welcome"
       "move-status-items"
       "tabularize"
-      "autocomplete-html-entities"
     ]
     themes: [
       "one-dark-ui"
@@ -36,9 +35,6 @@
     autoToggle: false
     plugins:
       linter: true
-  "fancy-new-file":
-    showFilesInAutoComplete: true
-    suggestCurrentFilePath: true
   linter:
     lintOnEditorFocus: false
     statusBar: "Show error if the cursor is in range"
@@ -48,6 +44,7 @@
     showErrorPanel: false
     showErrorTabFile: false
     showErrorTabProject: false
+    statusIconScope: "File"
   "autocomplete-plus":
     includeCompletionsFromAllBuffers: true
     strictMatching: true
@@ -162,14 +159,14 @@
   "atom-alignment":
     addSpacePostfix: true
   "atom-material-ui":
+    disableAnimations: true
+    useRoboto: true
+    accentColor: "Red"
     compactTreeView: true
     depth: true
-    disableAnimations: true
-    panelContrast: true
-    rippleAccentColor: true
     showTabIcons: true
-    tabSize: "Small"
-    useRoboto: true
+    rippleAccentColor: true
+    panelContrast: true
     themeSyle: "Darker"
   "vim-mode-next":
     useClipboardAsDefaultRegister: true
@@ -184,9 +181,6 @@
       "{}"
     ]
   "atom-ternjs": {}
-  "vim-mode":
-    useClipboardAsDefaultRegister: true
-    useSmartcaseForSearch: true
   "autocomplete-python":
     outputProviderErrors: true
     useSnippets: "required"
@@ -194,6 +188,12 @@
   "advanced-open-file":
     caseSensitiveAutoCompletion: true
     createFileInstantly: true
+  "linter-gcc": {}
+  "merge-conflicts": {}
+  "atom-fuzzy-grep": {}
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
 ".css.scss.source":
   editor:
     tabLength: 2

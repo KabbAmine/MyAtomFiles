@@ -1,6 +1,6 @@
 #################################
 # Creation         : 07-18-15
-# Last modification: 02-08-15
+# Last modification: 06-08-15
 # ###############################
 
 # ################
@@ -20,7 +20,7 @@
   ', f': 'fuzzy-finder:toggle-file-finder'
   ', b': 'fuzzy-finder:toggle-buffer-finder'
   ', l': 'go-to-line:toggle'
-  ', g': 'git-plus:menu'
+  ', G': 'git-plus:menu'
   ', N': 'tree-view:toggle'
   ', n': 'tree-view:toggle-focus'
 
@@ -39,6 +39,9 @@
 
   # Linter
   ', e': 'linter:togglePanel'
+
+  # Atom-fuzzy-grep
+  ', g': 'fuzzy-grep:toggle'
 
 
 # #################
