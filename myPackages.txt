@@ -1,4 +1,4 @@
-# Généré le jeudi 6 août 2015, 00:00:09 (UTC+0300)
+# Généré le lundi 10 août 2015, 00:00:02 (UTC+0300)
 
 advanced-open-file
 atom-alignment
@@ -73,6 +73,7 @@ tabs-to-spaces
 tabularize
 terminal-panel
 tool-bar
+up2date
 vim-mode-clipboard-plus
 vim-mode-next
 vim-surround

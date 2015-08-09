@@ -30,6 +30,7 @@
     invisibles: {}
     fontFamily: "Droid Sans Mono"
     fontSize: 16
+    backUpBeforeSaving: true
   minimap:
     scrollAnimation: true
     autoToggle: false
@@ -41,10 +42,10 @@
     lintOnChange: false
     clearOnChange: true
     showInfoMessages: true
+    statusIconScope: "File"
     showErrorPanel: false
     showErrorTabFile: false
-    showErrorTabProject: false
-    statusIconScope: "File"
+    underlineIssues: false
   "autocomplete-plus":
     includeCompletionsFromAllBuffers: true
     strictMatching: true
@@ -95,7 +96,6 @@
   "flex-tool-bar":
     toolBarConfigurationFilePath: "/home/k-bag/.atom/toolbar.json"
   pigments:
-    markerType: "square-dot"
     sortPaletteColors: "by color"
     groupPaletteColors: "by file"
   "one-dark-ui":
@@ -194,6 +194,7 @@
   "vim-mode":
     useClipboardAsDefaultRegister: true
     useSmartcaseForSearch: true
+  isearch: {}
 ".css.scss.source":
   editor:
     tabLength: 2
