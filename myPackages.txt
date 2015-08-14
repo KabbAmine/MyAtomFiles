@@ -1,5 +1,3 @@
-# Généré le lundi 10 août 2015, 00:00:02 (UTC+0300)
-
 advanced-open-file
 atom-alignment
 atom-beautify
@@ -7,7 +5,6 @@ atom-fuzzy-grep
 atom-material-syntax
 atom-material-ui
 atom-ternjs
-atom-zeal
 autocomplete-emojis
 autocomplete-html-entities
 autocomplete-paths
@@ -52,17 +49,13 @@ merge-conflicts
 minimap
 minimap-linter
 modular-snippets
-move-status-items
 multi-cursor
 navigate
 new-tab
-nucleus-dark-ui
 open-this
 outlander-syntax
-outlander-ui
 permanent-delete
 pigments
-quantum-ui
 revert-buffer
 script
 source-preview
@@ -70,7 +63,6 @@ source-preview-jade
 status-bar-clock
 symbols-tree-view
 tabs-to-spaces
-tabularize
 terminal-panel
 tool-bar
 up2date

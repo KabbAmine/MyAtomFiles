@@ -9,7 +9,6 @@
       "archive-view"
       "welcome"
       "move-status-items"
-      "tabularize"
     ]
     themes: [
       "one-dark-ui"
@@ -52,7 +51,6 @@
     minimumWordLength: 2
     confirmCompletion: "tab"
   "file-icons":
-    forceShow: true
     onChanges: true
   "tree-view": {}
   "atom-beautify":
@@ -63,7 +61,6 @@
     beautifyEntireFileOnSave: false
     analytics: false
     css_align_assignments: true
-  jumpy: {}
   "linter-scss-lint":
     scssLintExecutablePath: "/usr/local/bin/scss-lint"
     executablePath: "/usr/local/bin/scss-lint"
@@ -71,7 +68,6 @@
     tidyExecutablePath: "/usr/local/bin/tidy5"
   "git-log": {}
   tabs:
-    usePreviewTabs: true
     enableVcsColoring: true
   "spell-check": {}
   "markdown-preview":
@@ -146,9 +142,6 @@
   notifications:
     showErrorsInDevMode: true
   "status-bar": {}
-  "move-status-items":
-    useSmartcaseForSearch: true
-    useClipboardAsDefaultRegister: true
   "cursor-history":
     excludeClosedBuffer: true
     flashOnLand: true
@@ -164,7 +157,6 @@
     accentColor: "Red"
     compactTreeView: true
     depth: true
-    showTabIcons: true
     rippleAccentColor: true
     panelContrast: true
     themeSyle: "Darker"
@@ -195,6 +187,7 @@
     useClipboardAsDefaultRegister: true
     useSmartcaseForSearch: true
   isearch: {}
+  "git-history": {}
 ".css.scss.source":
   editor:
     tabLength: 2
