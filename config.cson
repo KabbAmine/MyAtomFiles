@@ -9,6 +9,7 @@
       "archive-view"
       "welcome"
       "move-status-items"
+      "metrics"
     ]
     themes: [
       "one-dark-ui"
@@ -44,7 +45,6 @@
     statusIconScope: "File"
     showErrorPanel: false
     showErrorTabFile: false
-    underlineIssues: false
   "autocomplete-plus":
     includeCompletionsFromAllBuffers: true
     strictMatching: true
@@ -188,18 +188,18 @@
     useSmartcaseForSearch: true
   isearch: {}
   "git-history": {}
-".css.scss.source":
-  editor:
-    tabLength: 2
 ".basic.html.text":
   editor:
     tabLength: 2
-".coffee.source":
+".css.scss.source":
+  editor:
+    tabLength: 2
+".sass.source":
   editor:
     tabLength: 2
 ".python.source":
   editor:
     tabLength: 2
-".sass.source":
+".coffee.source":
   editor:
     tabLength: 2
