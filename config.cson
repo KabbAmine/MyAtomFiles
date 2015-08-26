@@ -47,7 +47,6 @@
     showErrorTabFile: false
   "autocomplete-plus":
     includeCompletionsFromAllBuffers: true
-    strictMatching: true
     minimumWordLength: 2
     confirmCompletion: "tab"
   "file-icons":
@@ -188,18 +187,19 @@
     useSmartcaseForSearch: true
   isearch: {}
   "git-history": {}
-".css.scss.source":
-  editor:
-    tabLength: 2
+  "autocomplete-php": {}
 ".basic.html.text":
   editor:
     tabLength: 2
-".coffee.source":
+".css.scss.source":
+  editor:
+    tabLength: 2
+".sass.source":
   editor:
     tabLength: 2
 ".python.source":
   editor:
     tabLength: 2
-".sass.source":
+".coffee.source":
   editor:
     tabLength: 2

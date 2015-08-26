@@ -8,6 +8,7 @@ atom-ternjs
 autocomplete-emojis
 autocomplete-html-entities
 autocomplete-paths
+autocomplete-php
 autocomplete-python
 bracket-close-jump
 browser-plus
