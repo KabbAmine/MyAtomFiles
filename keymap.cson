@@ -1,6 +1,6 @@
 #################################
 # Creation         : 07-18-15
-# Last modification: 06-08-15
+# Last modification: 28-08-15
 # ###############################
 
 # ################
@@ -107,6 +107,8 @@
   'ctrl-k': 'window:focus-pane-above'
   'ctrl-h': 'window:focus-pane-on-left'
   'ctrl-l': 'window:focus-pane-on-right'
+  'up': 'pane:increase-size'
+  'down': 'pane:decrease-size'
 
   # For bookmarks
   ', m': 'bookmarks:view-all'
