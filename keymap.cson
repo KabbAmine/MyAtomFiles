@@ -1,6 +1,6 @@
 #################################
 # Creation         : 07-18-15
-# Last modification: 28-08-15
+# Last modification: 14-09-15
 # ###############################
 
 # ################
@@ -15,7 +15,7 @@
   'ctrl-p': 'core:move-up'
 
   # Various
-  'ctrl-shift-n': 'application:new-file'
+  'ctrl-shift-n': 'advanced-open-file:toggle'
   ', ,': 'command-palette:toggle'
   ', f': 'fuzzy-finder:toggle-file-finder'
   ', b': 'fuzzy-finder:toggle-buffer-finder'
@@ -43,7 +43,6 @@
   # Atom-fuzzy-grep
   ', g': 'fuzzy-grep:toggle'
 
-
 # #################
 # Plugins
 # #################
@@ -60,6 +59,12 @@
   'O': 'tree-view:recursive-expand-directory'
   's': 'tree-view:open-selected-entry-down'
   'v': 'tree-view:open-selected-entry-right'
+
+# Advanced-open-file'
+'.advanced-open-file atom-text-editor':
+  'tab': 'advanced-open-file:autocomplete'
+  'ctrl-p': 'advanced-open-file:move-cursor-up'
+  'ctrl-n': 'advanced-open-file:move-cursor-down'
 
 # ###############################
 # Vim-mode & plugins in vim-mode

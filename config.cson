@@ -112,6 +112,7 @@
       "ex-mode"
       "vim-mode-next"
       "vim-surround"
+      "advanced-open-file"
     ]
     allCommunityPackages: true
     exceptBundledPackages: [
@@ -179,6 +180,8 @@
   "advanced-open-file":
     caseSensitiveAutoCompletion: true
     createFileInstantly: true
+    helmDirSwitch: true
+    defaultInputValue: "Project root"
   "linter-gcc": {}
   "merge-conflicts": {}
   "atom-fuzzy-grep": {}
@@ -188,18 +191,18 @@
   isearch: {}
   "git-history": {}
   "autocomplete-php": {}
-".css.scss.source":
-  editor:
-    tabLength: 2
 ".basic.html.text":
   editor:
     tabLength: 2
-".coffee.source":
+".css.scss.source":
+  editor:
+    tabLength: 2
+".sass.source":
   editor:
     tabLength: 2
 ".python.source":
   editor:
     tabLength: 2
-".sass.source":
+".coffee.source":
   editor:
     tabLength: 2
