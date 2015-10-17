@@ -18,6 +18,9 @@
     followSymlinks: false
     projectHome: "/home/k-bag/Projects/pluginsAtom/"
     autoHideMenuBar: true
+    packagesWithKeymapsDisabled: [
+      "linter"
+    ]
   metrics: false
   "exception-reporting":
     userId: "29ef498c-bdbd-641e-7645-0f0ffea9613b"
@@ -191,18 +194,18 @@
   isearch: {}
   "git-history": {}
   "autocomplete-php": {}
-".basic.html.text":
-  editor:
-    tabLength: 2
 ".css.scss.source":
   editor:
     tabLength: 2
-".sass.source":
+".basic.html.text":
+  editor:
+    tabLength: 2
+".coffee.source":
   editor:
     tabLength: 2
 ".python.source":
   editor:
     tabLength: 2
-".coffee.source":
+".sass.source":
   editor:
     tabLength: 2
