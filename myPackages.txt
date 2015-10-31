@@ -5,6 +5,7 @@ atom-fuzzy-grep
 atom-material-syntax
 atom-material-ui
 atom-ternjs
+atom-ungit
 autocomplete-emojis
 autocomplete-html-entities
 autocomplete-paths

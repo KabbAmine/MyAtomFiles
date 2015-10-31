@@ -194,18 +194,19 @@
   isearch: {}
   "git-history": {}
   "autocomplete-php": {}
-".basic.html.text":
-  editor:
-    tabLength: 2
+  "source-preview": {}
 ".css.scss.source":
   editor:
     tabLength: 2
-".sass.source":
+".basic.html.text":
+  editor:
+    tabLength: 2
+".coffee.source":
   editor:
     tabLength: 2
 ".python.source":
   editor:
     tabLength: 2
-".coffee.source":
+".sass.source":
   editor:
     tabLength: 2
