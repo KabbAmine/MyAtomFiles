@@ -49,7 +49,6 @@ linter-shellcheck
 linter-tidy
 merge-conflicts
 minimap
-minimap-linter
 modular-snippets
 multi-cursor
 navigate
@@ -62,7 +61,6 @@ revert-buffer
 script
 source-preview
 source-preview-jade
-status-bar-clock
 symbols-tree-view
 tabs-to-spaces
 terminal-panel
