@@ -8,11 +8,12 @@
       "autosave"
       "archive-view"
       "welcome"
-      "move-status-items"
       "metrics"
       "atom-beautify"
       "background-tips"
       "spell-check"
+      "open-on-github"
+      "terminal-panel"
     ]
     themes: [
       "one-dark-ui"
@@ -22,7 +23,32 @@
     projectHome: "/home/k-bag/Projects/pluginsAtom/"
     autoHideMenuBar: true
     packagesWithKeymapsDisabled: [
+      "emmet"
+      "advanced-open-file"
+      "atom-alignment"
+      "browser-plus"
+      "clipboard-plus"
+      "color-picker"
+      "cursor-history"
+      "git-history"
+      "isearch"
       "linter"
+      "merge-conflicts"
+      "tool-bar"
+      "terminal-panel"
+      "symbols-tree-view"
+      "source-preview"
+      "script"
+      "permanent-delete"
+      "bracket-matcher"
+      "find-and-replace"
+      "fuzzy-finder"
+      "git-diff"
+      "markdown-preview"
+      "tabs"
+      "symbols-view"
+      "open-on-github"
+      "notifications"
     ]
   metrics: false
   "exception-reporting":
@@ -113,24 +139,6 @@
       "ctrl-k"
       "ctrl-w"
     ]
-    exceptCommunityPackages: [
-      "docblockr"
-      "ex-mode"
-      "vim-mode-next"
-      "vim-surround"
-      "advanced-open-file"
-    ]
-    allCommunityPackages: true
-    exceptBundledPackages: [
-      "autocomplete-plus"
-      "grammar-selector"
-      "link"
-      "snippets"
-      "tabs"
-      "tree-view"
-      "keybinding-resolver"
-    ]
-    allBundledPackages: true
   "new-tab":
     position: "Center"
   "indentation-indicator":
@@ -158,14 +166,11 @@
   "atom-alignment":
     addSpacePostfix: true
   "atom-material-ui":
-    disableAnimations: true
     useRoboto: true
     accentColor: "Red"
-    compactTreeView: true
-    depth: true
-    rippleAccentColor: true
-    panelContrast: true
     themeSyle: "Darker"
+    rippleAccentColor: true
+    showTabIcons: "Show on all tabs"
   "vim-mode-next":
     useClipboardAsDefaultRegister: true
     useSmartcaseForSearch: true
@@ -198,6 +203,14 @@
   "git-history": {}
   "autocomplete-php": {}
   "source-preview": {}
+  "vim-mode-plus":
+    stayOnTransformString: true
+    incrementalSearch: true
+    useSmartcaseForSearch: true
+    showHoverOnOperate: true
+    showHoverSearchCounter: true
+  "find-and-replace":
+    openProjectFindResultsInRightPane: true
 ".basic.html.text":
   editor:
     tabLength: 2

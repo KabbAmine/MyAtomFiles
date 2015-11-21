@@ -1,7 +1,12 @@
 #################################
 # Creation         : 07-18-15
-# Last modification: 14-09-15
+# Last modification: 11-20-15
 # ###############################
+
+# TODO
+# Plugins:
+#   * docblockr
+#   * merge-conflicts
 
 # ################
 # General
@@ -132,6 +137,7 @@
   'ctrl-shift-f': 'project-find:show'
   'ctrl-d': 'find-and-replace:select-next'
   'ctrl-space': 'unset'
+  '%': 'bracket-matcher:go-to-matching-bracket'
 
 # Visual-mode
 # ################

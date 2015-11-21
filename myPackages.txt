@@ -49,7 +49,6 @@ linter-shellcheck
 linter-tidy
 merge-conflicts
 minimap
-modular-snippets
 multi-cursor
 navigate
 new-tab
